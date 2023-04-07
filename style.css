@@ -1,0 +1,175 @@
+.sticky{
+    position:fixed;
+    top:0;
+    width:100%;
+}
+.style{
+    background-image: url('carimg3-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: calc((100%-100vw)/2);
+
+
+}
+.navigation{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+#title{ 
+    margin-left:50px;
+    margin-right:50px;
+}
+#heading{
+    font-size:25px;
+    font-style: italic;
+    background-color:goldenrod;
+    text-align:center;
+    margin-top: 0%;  
+}
+#line1{
+    padding:5px 0px 0px 0px;
+    margin:0px;
+    font-style:italic;
+    font-size:30px;
+    color:white;
+    
+}
+.nav{
+    background-color:rgba(0, 0, 0, 0.774);
+    font-size:20px;
+    width:100%;
+}
+.dropdown-item{
+    color:black;
+}
+#start{
+    padding:200px 100px 0px 100px;
+    font-style: italic;
+    color:white;
+    font-size:30px;
+}
+#btn{
+    font-style:italic;
+}
+/* #secondpage{
+    display: block;
+} */
+#heading2{
+    font-size:40px;
+    text-align:center;
+    color:red;
+    font-style: italic;
+}
+.intro{
+    padding:10px 0px 30px 0px;
+    /* background-color:black; */
+}
+.para{
+    font-size:50px;
+    padding:20px 0px;
+    font-style: italic;
+    text-align:center;
+    color:blue;
+}
+.carheading{
+    font-size:20px;text-align:center;
+    color:red;
+}
+.carimg{
+    width:100%;
+    height:auto;
+}
+#under10lakh{
+    border:1px solid black;
+    /* margin: 0px 300px; */
+}
+.info{
+    margin:10px;
+    display:flex;
+}
+.anchor{
+text-decoration: none;
+color:white;
+}
+.introductory{
+    display:flex;
+}
+.boxheading{
+    font-style: italic;
+    color:red;
+    font-size:18px;
+}
+.boxes{
+    border: 1px solid black;
+    width: 25%;
+    text-align:center;
+    /* margin:0px 50px; */
+}
+.btnbox{
+    background-color:blue;
+    color:white;
+    border-radius:
+}
+.footer{
+    font-size:20px;
+    text-align:center;
+    margin:0px;
+}
+
+@media only screen and (max-width:1000px){
+    .introductory{
+        display:block;
+        margin:60px;
+    }
+    #texteditor{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    #line1{
+        font-size:40px;
+        margin-top: 2px;
+    }
+    .font{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+   
+    .boxes{
+        width:100%;
+        /* margin:auto; */
+    }
+    img{
+        height:auto;
+        width:auto;
+        margin:auto;
+    }
+    .btnbox{
+        height:50px;
+        padding:0 35 0 35 px;
+        font-size:30px;
+    }
+    .boxheading{
+        margin:0px;
+        font-size:40px;
+    }
+    .para{
+        margin:0px;
+        padding:0px;
+    }
+    
+ #start{
+     padding-top: 60%;
+     font-size:40px;
+ } 
+ #btn{
+     font-size:30px;
+     padding:0px 20px;
+ }
+ .footer{
+    font-size:30px;
+    text-align:center;
+    margin:0px;
+}
+ 
+} 
